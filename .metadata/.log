@@ -1,0 +1,18 @@
+!SESSION 2014-09-18 17:58:01.212 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.7.0_60-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.javascript.product
+Command-line arguments:  -data E:\gtm\trianing\week 2\github\gitproject\eclipse -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.javascript.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2014-09-18 17:58:10.291
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2014-09-18 17:58:10.292
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptProjectWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@43d3e9cb),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@43d3e9cb)),sourcePriority=16640)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet/org.eclipse.wst.jsdt.ui.actions.OpenProjectWizard,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.wst.jsdt.internal.ui.wizards.OpenJavaScriptFileWizardToolbarAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet,org.eclipse.ui.internal.WorkbenchWindow@43d3e9cb),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@43d3e9cb)),sourcePriority=16640)
